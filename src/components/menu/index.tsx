@@ -12,7 +12,7 @@ export function Menu({ isFooter, items }: MenuProps) {
         "inline-flex min-h-max flex-col items-start gap-x-2 transition-all duration-300 md:static md:z-0 md:translate-y-0 md:scale-y-100 md:flex-row md:items-center md:opacity-100",
         isFooter
           ? ""
-          : "absolute inset-0 top-16 z-[-1] translate-y-[-80%] scale-y-75 opacity-0 group-focus-within:translate-y-0 group-focus-within:scale-y-100 group-focus-within:opacity-100",
+          : "absolute inset-0 top-18 z-[-1] translate-y-[-80%] scale-y-75 bg-black/70 opacity-0 group-focus-within:translate-y-0 group-focus-within:scale-y-100 group-focus-within:opacity-100 md:bg-transparent",
       )}
       onMouseLeave={() => setIndex(null)}
     >

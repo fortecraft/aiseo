@@ -12,7 +12,7 @@ export function Navigation({
   return (
     <div
       className={cn(
-        "z-100 flex h-max w-full flex-row items-center justify-between rounded-none border-0 border-white/20 px-5 backdrop-blur-md sm:h-15 sm:rounded-lg sm:border sm:px-2.5 md:w-2xl md:max-w-2xl md:justify-start",
+        "z-100 flex h-max w-full flex-row items-center justify-between rounded-none border-0 border-white/20 px-5 sm:h-15 sm:rounded-lg sm:border sm:px-2.5 md:w-2xl md:max-w-2xl md:justify-start",
         className,
       )}
     >

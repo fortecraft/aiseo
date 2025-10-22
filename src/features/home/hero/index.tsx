@@ -61,7 +61,7 @@ export function Hero() {
           <h1 className="bg-white bg-[radial-gradient(100%_100%_at_top_left,white,white,rgba(74,32,138,0.5))] bg-clip-text text-center text-8xl leading-none font-semibold tracking-tighter text-transparent md:text-[168px]">
             AI SEO
           </h1>
-          <span className="text-center text-lg leading-7 tracking-tight text-white/70 md:text-xl">
+          <span className="px-8 text-center text-lg leading-7 tracking-tight text-white/70 md:px-0 md:text-xl">
             Elevate your site's visibility effortlessly with AI, where smart
             technology meets user-friendly SEO tools.
           </span>
